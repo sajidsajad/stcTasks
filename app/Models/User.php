@@ -19,4 +19,6 @@ class User extends Authenticatable
         'phone',
         'city',
     ];
+
+    public $timestamps = false;
 }

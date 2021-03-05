@@ -20,4 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('task1/{fmt}/{id}', [UserController::class, 'task1']);
+Route::post('task1', [UserController::class, 'task1']);
